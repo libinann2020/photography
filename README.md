@@ -6,9 +6,9 @@ vue add vuetify
 
 npm install vue-router
 
-to deploy in github pages static
-update vue.config.js file
-npm run build
-git add dist -f
-git commit -m "Adding dist"
+to deploy in github pages static    
+update vue.config.js file    
+npm run build    
+git add dist -f    
+git commit -m "Adding dist"    
 git subtree push --prefix dist origin gh-pages
